@@ -1,0 +1,16 @@
+[
+    {
+        "key": "ELG-0b27ugNe9WC",
+        "date": "2026-03-09",
+        "expire": "2026-03-10",
+        "serial": "",
+        "lib": "https:\/\/raw.githubusercontent.com\/namvpsfree\/lib\/main\/libELG.so"
+    },
+    {
+        "key": "ELG-n28S376ccht",
+        "date": "2026-03-09",
+        "expire": "2026-03-10",
+        "serial": "",
+        "lib": "https:\/\/raw.githubusercontent.com\/namvpsfree\/lib\/main\/libELG.so"
+    }
+]
