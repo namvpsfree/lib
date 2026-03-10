@@ -32,11 +32,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $date = date("Y-m-d");
 
         $data = [
-            "key" => $key,
-            "date" => $date,
-            "expire" => date("Y-m-d", strtotime("+1 day")),
-            "serial" => "",
-            "lib" => "https://raw.githubusercontent.com/namvpsfree/lib/main/libELG.so"
+            "Key" => $key,
+            "Uid" => "",
+            "Status" => "Active",
+            "Lib" => "https://elghacker.ct.ws/libELG.so",
+            "Create_date" => date("Y-m-d"),
+            "Dias" => date("Y-m-d", strtotime("+1 day"))
         ];
 
         #write in file
